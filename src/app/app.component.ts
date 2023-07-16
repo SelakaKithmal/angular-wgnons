@@ -26,7 +26,7 @@ export class AppComponent {
   }
 
   getArray1(arr, index) {
-    return this.customSliceAndMoveItems(['a', 'b', 'c', 'd'], 2);
+    return this.customSliceAndMoveItems(arr, index);
   }
 
   customSliceAndMoveItems(array, startIndex) {
